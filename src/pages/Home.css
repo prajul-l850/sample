@@ -1,0 +1,26 @@
+/* Home.css */
+html, body, #root {
+    height: 100%; /* Ensure the body and root take full height */
+    margin: 0; /* Remove default margin */
+}
+
+.center-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text inside the div */
+    flex-direction: column; /* Stack children vertically */
+}
+
+h1 {
+    margin-bottom: 20px; /* Add space below the heading */
+        text-align: center; /* Center text below images */
+
+}
+
+p {
+    margin-bottom: 20px; /* Add space below the paragraph (if needed) */
+        text-align: center; /* Center text below images */
+
+}
