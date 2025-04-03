@@ -1,21 +1,12 @@
-/* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; /* Modern & clean font */
-}
-
-/* Fullscreen Layout */
+/* Home.css */
 html, body, #root {
-    height: 100%;
+    height: 100%; /* Ensure the body and root take full height */
+    margin: 0; /* Remove default margin */
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #ff758c, #ff7eb3); /* Warm gradient background */
+background: linear-gradient(135deg, #D2042D, #FF4D4D); /* Cherry Red Gradient */
 }
 
-/* Centered Container */
 .center-container {
     display: flex;
     flex-direction: column;
