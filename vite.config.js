@@ -4,4 +4,7 @@ import vercel from 'vite-plugin-vercel'  // Ensure this is installed
 
 export default defineConfig({
   plugins: [react(), vercel()],
+    esbuild: {
+    jsxImportSource: 'react',
+  },
 });
